@@ -1,0 +1,19 @@
+{
+  "name": "newrelic-loopback4",
+  "version": "0.0.1",
+  "description": "Loopback 4 Instrumentation for Newrelic node agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zestmoney/newrelic-loopback4.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
+  },
+  "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme"
+}
