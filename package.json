@@ -10,10 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/zestmoney/newrelic-loopback4.git"
   },
-  "author": "",
+  "author": "prashant.bhaduria@zestmoney.in",
+  "contributors": [
+    {
+      "name": "Pranay Saha",
+      "email": "pranay@zestmoney.in"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
   },
-  "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme"
+  "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme",
+  "dependencies": {
+    "newrelic": "^6.3.0"
+  }
 }
