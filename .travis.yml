@@ -6,7 +6,4 @@ node_js:
   - "10"
   - "8"
 
-
-before_script:
-  - npm install -g gulp
-script: gulp
+script: npm run test
