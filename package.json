@@ -1,0 +1,33 @@
+{
+  "name": "newrelic-loopback4",
+  "version": "0.0.1",
+  "description": "Loopback 4 Instrumentation for Newrelic node agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit",
+    "unit": "tap tests/unit/**/*.tap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zestmoney/newrelic-loopback4.git"
+  },
+  "author": "prashant.bhaduria@zestmoney.in",
+  "contributors": [
+    {
+      "name": "Pranay Saha",
+      "email": "pranay@zestmoney.in"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
+  },
+  "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme",
+  "dependencies": {
+    "@loopback/rest": "^2.0.0",
+    "@newrelic/test-utilities": "^3.2.0",
+    "coveralls": "^3.0.9",
+    "newrelic": "^6.3.0",
+    "tap": "^14.10.6"
+  }
+}
