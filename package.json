@@ -12,12 +12,10 @@
     "url": "git+https://github.com/zestmoney/newrelic-loopback4.git"
   },
   "author": "prashant.bhaduria@zestmoney.in",
-  "contributors": [
-    {
-      "name": "Pranay Saha",
-      "email": "pranay@zestmoney.in"
-    }
-  ],
+  "contributors": [{
+    "name": "Pranay Saha",
+    "email": "pranay@zestmoney.in"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
@@ -29,5 +27,12 @@
     "coveralls": "^3.0.9",
     "newrelic": "^6.3.0",
     "tap": "^14.10.6"
-  }
+  },
+  "keywords": [
+    "newrelic",
+    "newrelic-loopback",
+    "newrelic-loopback4",
+    "loopback",
+    "monitoring"
+  ]
 }
