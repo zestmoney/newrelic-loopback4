@@ -1,6 +1,6 @@
 {
   "name": "newrelic-loopback4",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loopback 4 Instrumentation for Newrelic node agent",
   "main": "index.js",
   "scripts": {
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme",
   "dependencies": {
-    "@loopback/rest": "^2.0.0",
-    "@newrelic/test-utilities": "^3.2.0",
+    "@loopback/rest": "^10.0.1",
+    "@newrelic/test-utilities": "^6.0.0",
     "coveralls": "^3.0.9",
-    "newrelic": "^6.3.0",
-    "tap": "^14.10.6"
+    "newrelic": "^8.4.0",
+    "tap": "^15.0.10"
   }
 }
