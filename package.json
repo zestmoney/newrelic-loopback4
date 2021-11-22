@@ -18,16 +18,21 @@
       "email": "pranay@zestmoney.in"
     }
   ],
+  "files":["lib"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zestmoney/newrelic-loopback4/issues"
   },
   "homepage": "https://github.com/zestmoney/newrelic-loopback4#readme",
   "dependencies": {
-    "@loopback/rest": "^11.0.0",
     "@newrelic/test-utilities": "^6.2.0",
     "coveralls": "^3.1.1",
     "newrelic": "^8.6.0",
     "tap": "^15.1.2"
+  },
+  "devDependencies": {
+    "@loopback/core": "^3.0.0",
+    "@loopback/repository": "^4.0.0",
+    "@loopback/rest": "^11.0.0"
   }
 }
